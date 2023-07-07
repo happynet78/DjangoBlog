@@ -16,6 +16,6 @@ dataBase = mysql.connector.connect(
 cursorObject = dataBase.cursor()
 
 # Create a database
-cursorObject.execute("CREATE DATABASE django_blog")
+cursorObject.execute("CREATE DATABASE django_crm")
 
 print("All Done!")
